@@ -1,0 +1,134 @@
+[
+    {
+        "id": "001",
+        "picture": "https://i.postimg.cc/G3W7mKkf/Food.png",
+        "title": "Feed the Hungry",
+        "category": "Food",
+        "category_bg": "#FF9800",
+        "card_bg": "#FFF3E0",
+        "text_button_bg": "#FF5722",
+        "description": "Support efforts to combat hunger by providing nutritious meals to those in need.",
+        "price": "$20"
+    },
+    {
+        "id": "002",
+        "picture": "https://i.postimg.cc/50fPSRkK/Clothing.png",
+        "title": "Warm Clothing Drive",
+        "category": "Cloth",
+        "category_bg": "#4CAF50",
+        "card_bg": "#E0F2F1",
+        "text_button_bg": "#009688",
+        "description": "Donate warm clothing items to help keep individuals and families warm during the cold season.",
+        "price": "$15"
+    },
+    {
+        "id": "003",
+        "picture": "https://i.postimg.cc/7ZxN5WbK/Health.png",
+        "title": "Healthcare Access",
+        "category": "Health",
+        "category_bg": "#9C27B0",
+        "card_bg": "#F3E5F5",
+        "text_button_bg": "#673AB7",
+        "description": "Support initiatives to improve healthcare access and services for vulnerable populations.",
+        "price": "$30"
+    },
+    {
+        "id": "004",
+        "picture": "https://i.postimg.cc/wvxVms7S/Education.png",
+        "title": "Education for All",
+        "category": "Education",
+        "category_bg": "#2196F3",
+        "card_bg": "#E3F2FD",
+        "text_button_bg": "#03A9F4",
+        "description": "Empower children with access to quality education and unlock their full potential.",
+        "price": "$25"
+    },
+    {
+        "id": "005",
+        "picture": "https://i.postimg.cc/G3W7mKkf/Food.png",
+        "title": "Meals for Homeless Shelters",
+        "category": "Food",
+        "category_bg": "#FF9800",
+        "card_bg": "#FFF3E0",
+        "text_button_bg": "#FF5722",
+        "description": "Provide warm meals to homeless shelters to support those in need.",
+        "price": "$20"
+    },
+    {
+        "id": "006",
+        "picture": "https://i.postimg.cc/50fPSRkK/Clothing.png",
+        "title": "Clothing for Orphanages",
+        "category": "Cloth",
+        "category_bg": "#4CAF50",
+        "card_bg": "#E0F2F1",
+        "text_button_bg": "#009688",
+        "description": "Donate clothing items to orphanages to help children in need.",
+        "price": "$15"
+    },
+    {
+        "id": "007",
+        "picture": "https://i.postimg.cc/7ZxN5WbK/Health.png",
+        "title": "Healthcare Supplies Drive",
+        "category": "Health",
+        "category_bg": "#9C27B0",
+        "card_bg": "#F3E5F5",
+        "text_button_bg": "#673AB7",
+        "description": "Provide essential healthcare supplies to clinics and hospitals serving low-income communities.",
+        "price": "$30"
+    },
+    {
+        "id": "008",
+        "picture": "https://i.postimg.cc/wvxVms7S/Education.png",
+        "title": "Educational Resources for Schools",
+        "category": "Education",
+        "category_bg": "#2196F3",
+        "card_bg": "#E3F2FD",
+        "text_button_bg": "#03A9F4",
+        "description": "Equip schools with educational resources to enhance learning opportunities for students.",
+        "price": "$25"
+    },
+    {
+        "id": "009",
+        "picture": "https://i.postimg.cc/G3W7mKkf/Food.png",
+        "title": "Food Bank Assistance Program",
+        "category": "Food",
+        "category_bg": "#FF9800",
+        "card_bg": "#FFF3E0",
+        "text_button_bg": "#FF5722",
+        "description": "Support food banks in distributing food to families facing food insecurity.",
+        "price": "$20"
+    },
+    {
+        "id": "010",
+        "picture": "https://i.postimg.cc/50fPSRkK/Clothing.png",
+        "title": "Clothing Drive for Disaster Victims",
+        "category": "Cloth",
+        "category_bg": "#4CAF50",
+        "card_bg": "#E0F2F1",
+        "text_button_bg": "#009688",
+        "description": "Provide clothing items to individuals affected by natural disasters to help rebuild their lives.",
+        "price": "$15"
+    },
+    {
+        "id": "011",
+        "picture": "https://i.postimg.cc/7ZxN5WbK/Health.png",
+        "title": "Medical Aid for Rural Communities",
+        "category": "Health",
+        "category_bg": "#9C27B0",
+        "card_bg": "#F3E5F5",
+        "text_button_bg": "#673AB7",
+        "description": "Deliver medical aid and services to remote rural communities lacking access to healthcare facilities.",
+        "price": "$30"
+    },
+    {
+        "id": "012",
+        "picture": "https://i.postimg.cc/wvxVms7S/Education.png",
+        "title": "Scholarship Fund for Underprivileged Students",
+        "category": "Education",
+        "category_bg": "#2196F3",
+        "card_bg": "#E3F2FD",
+        "text_button_bg": "#03A9F4",
+        "description": "Provide scholarships to underprivileged students to pursue their educational goals and dreams.",
+        "price": "$25"
+    }
+]
