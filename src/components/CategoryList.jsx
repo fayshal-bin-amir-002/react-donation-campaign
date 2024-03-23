@@ -1,17 +1,22 @@
-import useDonationData from "../Hooks/useDonationData";
+import PropTypes from 'prop-types';
 import SingleCategoryCard from "./SingleCategoryCard";
 
-const CategoryList = () => {
+const CategoryList = ({filteredData}) => {
 
-    const {data, loading} = useDonationData();
+    
 
     return (
         <div className="grid grid-cols-4 gap-6 max-w-7xl mx-auto mb-24">
             {
-                data.map((d) => <SingleCategoryCard key={d.id} card={d}></SingleCategoryCard>)
+                filteredData.map((d) => <SingleCategoryCard key={d.id} card={d}></SingleCategoryCard>)
             }
         </div>
     );
+};
+
+
+CategoryList.propTypes = {
+    filteredData: PropTypes.array.isRequired
 };
 
 export default CategoryList;
