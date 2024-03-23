@@ -7,7 +7,7 @@ const useDonationData = () => {
 
     useEffect(() => {
         setLoading(true);
-        fetch('allCategories.json')
+        fetch('../allCategories.json')
         .then(res => res.json())
         .then(data => setData(data))
         setLoading(false);
