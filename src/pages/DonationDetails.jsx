@@ -3,6 +3,8 @@ import useDonationData from "../Hooks/useDonationData";
 import { useEffect, useState } from "react";
 import { Button } from "@material-tailwind/react";
 import { saveToLocalStorage } from "../utils/localStorage";
+import CustomSpinner from "../components/CustomSpinner";
+import { useNavigation } from "react-router-dom";
 
 const DonationDetails = () => {
 
@@ -20,7 +22,13 @@ const DonationDetails = () => {
             const newCard = data.find((d) => d.id === id);
             setCard(newCard);
         }
-    }, [data, id])
+    }, [data, id]);
+
+    const navigation = useNavigation();
+
+    {
+        navigation.state === 'loading' && <CustomSpinner></CustomSpinner>
+    }
 
     const { picture, title, description, price } = card || {};
 

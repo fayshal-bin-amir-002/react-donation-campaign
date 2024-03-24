@@ -1,12 +1,17 @@
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
+
+
 export const saveToLocalStorage = (data) => {
     const savedData = getLocalData();
     const isExist = savedData.find((item) => item.id === data.id);
     if(!isExist) {
         savedData.push(data);
         localStorage.setItem('donation', JSON.stringify(savedData));
+        toast.success("Donate successfully");
     }
     else {
-        alert('Already data exists');
+        toast.error("Already exist");
     }
 }
 
